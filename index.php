@@ -50,6 +50,15 @@ if ($podaci->num_rows == 0) {
             </tbody>
             
     </table>
+
+    <form action="#" method="post" id = "BrisanjeForm">
+        <label for="">Forma za brisanje</label> <br>
+        <label for="DeleteMatID">ID Materijala za brisanje:</label><br>
+        <input type="text" id="DeleteMatID" name="DeleteMatID" value=""><br>
+        <input id = "btnObrisi" type="submit" value="Obrisi" name = "obrisi">
+        
+      </form> 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="main.js"></script>

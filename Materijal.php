@@ -22,7 +22,11 @@ public function __construct($MaterijalID,$NazivMaterijala)
         return $conn->query($query);
     }
 
-
+    public static function obrisi($id,mysqli $conn)
+    {
+        $query = "DELETE FROM materijali WHERE MaterijalID=$id";
+        return $conn->query($query);
+    }
 
 
 }
