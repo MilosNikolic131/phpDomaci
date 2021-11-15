@@ -1,0 +1,82 @@
+#materijalMain{
+    background-image: url("slika.jpg");
+    display: grid;
+    padding: 10px;
+    border: 5px solid lightblue;
+    margin: 3;
+}
+
+#dusekMain{
+    background-image: url("slika.jpg");
+    padding: 10px;
+    border: 5px solid lightblue;
+    margin: 3;
+}
+
+#dodavanjeForma {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+
+#brisanjeforma {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    
+}
+
+#izmenaforma {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+
+#tabelaMaterijala {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+   
+}
+#btnPrikaz{
+    margin: 0 auto;
+}
+#dodavanjeDusekaForma {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 2;
+}
+
+#brisanjeformaDusek {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 2;
+}
+
+#izmenaformaDusek {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 2;
+}
+
+#tabelaDuseka {
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 2;
+}
+
+#btnPrikazDuseka{
+    margin: 0 auto;
+}
