@@ -32,10 +32,12 @@ if ($podaciDusek->num_rows == 0) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Naslovna</title>
+  <title>Magacin</title>
 </head>
-<div id = "materijalMain">
 <body>
+
+<div id = "materijalMain">
+<h2 class = "header">Rad sa materijalima</h2>
   <div id="dodavanjeForma">
     <form action="#" method="post" id="dodajForm">
     <label for="">Forma za unos materijala</label> <br>
@@ -104,6 +106,7 @@ if ($podaciDusek->num_rows == 0) {
   </div>
   </div>
   <div id = "dusekMain">
+    <h2 class = "header">Rad sa dusecima</h2>
   <div id="dodavanjeDusekaForma">
     <form action="#" method="post" id="dodajDusekForm">
     <label for="">Forma za unos duseka</label> <br>
